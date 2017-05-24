@@ -1,0 +1,5 @@
+kerberos 认证添加
+kafka:
+    security.protocol=PLAINTEXTSASL
+    sasl.mechanism=GSSAPI
+    sasl.kerberos.service.name=kafka
